@@ -1,17 +1,13 @@
 const descripcion = {
-	descripcion: {
-		demand: true,
-		alias: 'd',
-		desc: 'Descripción de la tarea por hacer'
-	}
+	demand: true,
+	alias: 'd',
+	desc: 'Descripción de la tarea por hacer'
 }
 
 const completado = {
-	completado: {
-		default: true,
-		alias: 'c',
-		desc: 'Marca la tarea como completada o pendiente'
-	}
+	default: true,
+	alias: 'c',
+	desc: 'Marca la tarea como completada o pendiente'
 }
 
 const argv = require('yargs')

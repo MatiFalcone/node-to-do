@@ -26,7 +26,7 @@ switch(comando) {
 		break;
 
 	case 'actualizar':
-		
+
 		let actualizada = toDo.actualizarTarea(argv.descripcion, argv.completado);
 
 		if (actualizada) {
